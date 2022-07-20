@@ -4,8 +4,13 @@ Ppm is an image file format that contains uncompressed data for RGB values,
 which makes them easy to edit without needing any dependency.
 
 [Resource to understand PPM](https://www.youtube.com/watch?v=12IbpyFiIYE)
+## To Run
+```
+rustc main.rs
+./main
+```
 
-basic syntax for PPM
+## Basic syntax for PPM
 ```ppm
 # This is a comment
 # Line below specifies what kind of magic number we will use
